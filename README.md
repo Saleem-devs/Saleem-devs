@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Saleem Abdulsalam</h1>
+<h1 align="center">Hi 👋, I'm Seleem Abdulsalam</h1>
 <h3 align="center">I am a passionate and skilled frontend developer hailing from Nigeria, I bring a unique blend of technical expertise and creative vision to every project I work on.</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=saleem-devs&label=Profile%20views&color=0e75b6&style=flat" alt="saleem-devs" /> </p>
@@ -11,7 +11,7 @@
 
 - 🌱 I’m currently learning **NextJs, Typescript**
 
-- 👯 My area of interest are **Frontend developement, Javascript, React, CSS**
+- 👯 My area of interest are **Frontend developement, Web3, and AI**
 
 - 👨‍💻 All of my projects are available at <!--portfolio in development-->
 
