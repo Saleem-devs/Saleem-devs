@@ -11,13 +11,13 @@
 
 - 🌱 I’m currently learning **NextJs, Typescript**
 
-- 👯 My area of interest are **Frontend developement, Web3, and AI**
+- 👯 My area of interest are **Frontend developement, and ML/AI**
 
 - 👨‍💻 All of my projects are available at <!--portfolio in development-->
 
 - 📝 I regularly write articles on <!--blog in development-->
 
-- 💬 Ask me about **Javascript, React**
+- 💬 Ask me about **Accessibility, Performance, and SEO**
 
 - 📫 How to reach me **saleem.abdulsalam20@gmail.com**
 
