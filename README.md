@@ -7,7 +7,7 @@
 
 <p align="left"> <a href="https://twitter.com/abdsalam_saleem" target="blank"><img src="https://img.shields.io/twitter/follow/abdsalam_saleem?logo=twitter&style=for-the-badge" alt="abdsalam_saleem" /></a> </p>
 
-- 🔭 I’m currently studying **(Bsc) Information and Communication Science at the University of Ilorin, Nigeria**
+- 🔭 I’m currently studying **(Bsc) Computer Science at the University of Ilorin, Nigeria**
 
 - 🌱 I’m currently learning **NextJs, Typescript**
 
