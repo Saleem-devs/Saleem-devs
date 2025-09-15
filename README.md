@@ -63,4 +63,6 @@
 
 <p><img align="center" src="https://github-readme-stats.vercel.app/api?username=saleem-devs&show_icons=true&locale=en" alt="GitHub Stats" /></p>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=saleem-devs" alt="GitHub Streak" /></p>
+<p>
+  <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=saleem-devs" alt="GitHub Streak" />
+</p>
