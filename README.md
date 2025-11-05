@@ -18,9 +18,9 @@
 
 ### 🚀 About Me  
 - 🎓 **B.Sc. Computer Science**, University of Ilorin, Nigeria  
-- 💼 Software Developer (Remote, U.S.-based startup)  
+- 💼 Software Developer (**3 years of professional working experience**)  
 - 🧠 Exploring **AI/ML** and real-world use cases in automation and trading systems  
-- ⚙️ **Tech Stack:** TypeScript · NestJS · Next.js · React · FastAPI · Node.js · Python  
+- ⚙️ **Tech Stack:** TypeScript · Python  ·  NestJS · Next.js · React · FastAPI 
 - 💬 Interests: System design, backend architecture, and AI-driven software solutions  
 - 📫 Reach me at **saleem.abdulsalam20@gmail.com**  
 - 🌍 Portfolio & blog — *coming soon*  
