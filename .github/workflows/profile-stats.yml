@@ -29,6 +29,32 @@ jobs:
           token: ${{ secrets.PROFILE_STATS_TOKEN }}
           fail_on_error: true
 
+      - name: Reorder language card rows
+        shell: python
+        run: |
+          import re
+          from pathlib import Path
+
+          path = Path("profile/top-langs.svg")
+          svg = path.read_text()
+
+          pattern = re.compile(
+              r'<g class="stagger" style="animation-delay: \d+ms">.*?</g>',
+              re.DOTALL,
+          )
+          blocks = pattern.findall(svg)
+
+          if len(blocks) == 6:
+              # The compact renderer fills columns as [1,2,3] [4,5,6].
+              # Reorder the six rendered entries so rows become:
+              # [1,2], [3,4], [5,6].
+              reordered = [blocks[0], blocks[2], blocks[4], blocks[1], blocks[3], blocks[5]]
+              iterator = iter(reordered)
+              svg = pattern.sub(lambda _: next(iterator), svg)
+              path.write_text(svg)
+          else:
+              raise RuntimeError(f"Expected 6 language entries, found {len(blocks)}")
+
       - name: Generate streak stats
         uses: DenverCoder1/github-readme-streak-stats@v1
         with:
