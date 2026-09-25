@@ -1,71 +1,25 @@
-<h1 align="center">👋 Hey, I'm Seleem Abdulsalam</h1>
-<h3 align="center">Software Developer | Building scalable systems and intelligent applications</h3>
-<p align="center">
-  <em>Focused on fullstack, backend, and applied AI — crafting systems that are fast, reliable, and built to scale.</em>
-</p>
+# Seleem
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=saleem-devs&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
-</p>
+Software engineer building backend systems, infrastructure, and full-stack products.
 
-<p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=saleem-devs&theme=algolia&margin-w=10&margin-h=10" alt="GitHub Trophies" />
-  </a>
-</p>
+I care about distributed systems, reliability, databases, performance, and designing software that keeps working when things go wrong.
 
----
+Mostly working with **TypeScript, Python, NestJS, FastAPI, PostgreSQL, Redis, Next.js, Docker, and AWS**.
 
-### 🚀 About Me  
-- 🎓 **B.Sc. Computer Science**, University of Ilorin, Nigeria  
-- 💼 Software Developer (**3 years of professional working experience**)  
-- 🧠 Exploring **AI/ML** and real-world use cases in automation and trading systems  
-- ⚙️ **Tech Stack:** TypeScript · Python  ·  NestJS · Next.js · React · FastAPI 
-- 💬 Interests: System design, backend architecture, and AI-driven software solutions  
-- 📫 Reach me at **saleem.abdulsalam20@gmail.com**  
-- 🌍 Portfolio & blog — *coming soon*  
+### Building
 
----
+- **Watchrail** — uptime monitoring infrastructure with reliable job execution, HTTP monitoring, leases, and transactional outbox patterns.
+- **Parqo** — edge-first smart parking infrastructure with ALPR, IoT, MQTT, offline operation, and cloud synchronization.
+- **BillFlow** — invoicing and billing software for small businesses.
 
-### 🌐 Connect with Me  
-<p align="left">
-  <a href="https://twitter.com/abdsalam_saleem" target="_blank">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="Twitter" width="35" height="35"/>
-  </a>
-  <a href="https://linkedin.com/in/saleem-abdulsalam-905420262" target="_blank">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" width="35" height="35"/>
-  </a>
-</p>
+### Interests
 
----
+Distributed systems · Backend architecture · Infrastructure · Databases · Applied AI
 
-### 🧰 Languages & Tools  
-<p align="left">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="40" height="40" alt="TypeScript"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="40" height="40" alt="JavaScript"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="40" height="40" alt="Python"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nestjs/nestjs-plain.svg" width="40" height="40" alt="NestJS"/>
-  <img src="https://www.vectorlogo.zone/logos/fastapi/fastapi-icon.svg" width="40" height="40" alt="FastAPI"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" width="40" height="40" alt="React"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original-wordmark.svg" width="40" height="40" alt="Next.js"/>
-  <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" width="40" height="40" alt="Tailwind CSS"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" width="40" height="40" alt="Node.js"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="40" height="40" alt="Git"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" width="40" height="40" alt="HTML5"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" width="40" height="40" alt="CSS3"/>
-</p>
+### Code
 
----
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Saleem-devs&layout=compact&hide_border=true&theme=transparent&langs_count=6&size_weight=0.5&count_weight=0.5)
 
-### 📊 GitHub Insights  
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=saleem-devs&show_icons=true&locale=en&layout=compact&theme=tokyonight" alt="Top Languages" />
-</p>
+### Connect
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=saleem-devs&show_icons=true&theme=tokyonight" alt="GitHub Stats" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=saleem-devs&theme=tokyonight" alt="GitHub Streak" />
-</p>
+[LinkedIn](https://www.linkedin.com/in/saleem-abdulsalam/) · [Email](mailto:saleem.abdulsalam20@gmail.com)
