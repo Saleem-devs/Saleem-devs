@@ -24,9 +24,9 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&langs_count=6&size_weight=0.5&count_weight=0.5&exclude_repo=MusicApp,PixelAI,coinviewr,search-x,code-byte,portfolio,Portfolio---Sass-tutorial,pragmartagency,calculator-,alphaoilcooperation,Audiophile,payapi,example,Easybank-landing-pge,shadcn-admin,ssh-ai-chat,TradingAgents,TradingAgents-CN,100-Days-Of-ML-Code,build-your-own-x,every-programmer-should-know&custom_title=Current%20Code%20Languages&theme=transparent&hide_border=true
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=6&size_weight=0.5&count_weight=0.5&exclude_repo=Portfolio---Sass-tutorial,pragmartagency,calculator-,alphaoilcooperation,Audiophile,payapi,example,Easybank-landing-pge,meet-landing-page,Fylo-landing-page,manage-landing-page,loopstudios,shortly,Crappo,MusicApp,PixelAI,coinviewr,search-x,code-byte,portfolio,web3-dao-demo,neb-demo,gakmels-cages,dev-mind,test-stamp-nft,dashboard,CWEmbassy,crater-demo,crypto-invest,shadcn-admin,ssh-ai-chat,TradingAgents,TradingAgents-CN,100-Days-Of-ML-Code,build-your-own-x,every-programmer-should-know&custom_title=Current%20Code%20Languages&theme=transparent&hide_border=true
           path: profile/top-langs.svg
-          token: ${{ secrets.PROFILE_STATS_TOKEN || secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PROFILE_STATS_TOKEN }}
           fail_on_error: true
 
       - name: Generate streak stats
@@ -34,7 +34,7 @@ jobs:
         with:
           options: user=${{ github.repository_owner }}&theme=dark&hide_border=true&background=00000000&disable_animations=true&timezone=Africa/Lagos
           path: profile/streak.svg
-          token: ${{ secrets.PROFILE_STATS_TOKEN || secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PROFILE_STATS_TOKEN }}
 
       - name: Commit profile stats
         run: |
