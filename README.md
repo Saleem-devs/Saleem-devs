@@ -2,7 +2,7 @@
 
 Software engineer building backend systems, infrastructure, and full-stack products.
 
-I care about distributed systems, reliability, databases, performance, and designing software that keeps working when things go wrong.
+I care about distributed systems, reliability, databases, performance, and software that keeps working when things go wrong.
 
 Mostly working with **TypeScript, Python, NestJS, FastAPI, PostgreSQL, Redis, Next.js, Docker, and AWS**.
 
@@ -18,7 +18,9 @@ Distributed systems · Backend architecture · Infrastructure · Databases · Ap
 
 ### Code
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Saleem-devs&layout=compact&hide_border=true&theme=transparent&langs_count=6&size_weight=0.5&count_weight=0.5)
+<img src="./profile/top-langs.svg" alt="Top Languages" />
+
+<img src="./profile/streak.svg" alt="GitHub Contribution Streak" />
 
 ### Connect
 
