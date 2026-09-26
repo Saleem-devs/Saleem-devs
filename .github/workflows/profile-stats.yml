@@ -24,7 +24,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&langs_count=6&size_weight=0.5&count_weight=0.5&exclude_repo=Portfolio---Sass-tutorial,pragmartagency,calculator-,alphaoilcooperation,Audiophile,payapi,example,Easybank-landing-pge,meet-landing-page,Fylo-landing-page,manage-landing-page,loopstudios,shortly,Crappo,MusicApp,PixelAI,coinviewr,search-x,code-byte,portfolio,web3-dao-demo,neb-demo,gakmels-cages,dev-mind,test-stamp-nft,dashboard,CWEmbassy,crater-demo,crypto-invest,shadcn-admin,ssh-ai-chat,TradingAgents,TradingAgents-CN,100-Days-Of-ML-Code,build-your-own-x,every-programmer-should-know&custom_title=Current%20Code%20Languages&theme=transparent&hide_border=true
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=6&size_weight=0.5&count_weight=0.5&exclude_repo=Portfolio---Sass-tutorial,pragmartagency,calculator-,alphaoilcooperation,Audiophile,payapi,example,Easybank-landing-pge,meet-landing-page,Fylo-landing-page,manage-landing-page,loopstudios,shortly,Crappo,MusicApp,PixelAI,coinviewr,search-x,code-byte,portfolio,web3-dao-demo,neb-demo,gakmels-cages,dev-mind,test-stamp-nft,dashboard,CWEmbassy,crater-demo,crypto-invest,shadcn-admin,ssh-ai-chat,TradingAgents,TradingAgents-CN,100-Days-Of-ML-Code,build-your-own-x,every-programmer-should-know&hide=HTML,CSS&custom_title=Primary%20Languages&theme=transparent&hide_border=true
           path: profile/top-langs.svg
           token: ${{ secrets.PROFILE_STATS_TOKEN }}
           fail_on_error: true
@@ -44,16 +44,18 @@ jobs:
           )
           blocks = pattern.findall(svg)
 
-          if len(blocks) == 6:
-              # The compact renderer fills columns as [1,2,3] [4,5,6].
-              # Reorder the six rendered entries so rows become:
-              # [1,2], [3,4], [5,6].
-              reordered = [blocks[0], blocks[2], blocks[4], blocks[1], blocks[3], blocks[5]]
+          if blocks:
+              # The compact renderer fills columns top-to-bottom.
+              # Reorder entries into row-major ranking:
+              # 1st 2nd
+              # 3rd 4th
+              # 5th 6th
+              reordered = blocks[::2] + blocks[1::2]
               iterator = iter(reordered)
               svg = pattern.sub(lambda _: next(iterator), svg)
               path.write_text(svg)
           else:
-              raise RuntimeError(f"Expected 6 language entries, found {len(blocks)}")
+              raise RuntimeError("No language entries found in generated SVG")
 
       - name: Generate streak stats
         uses: DenverCoder1/github-readme-streak-stats@v1
