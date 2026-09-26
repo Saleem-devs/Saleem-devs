@@ -53,6 +53,13 @@ jobs:
               reordered = blocks[::2] + blocks[1::2]
               iterator = iter(reordered)
               svg = pattern.sub(lambda _: next(iterator), svg)
+
+              # Improve visual separation between the top languages.
+              # Keep TypeScript blue, use Python's yellow brand accent,
+              # and move JavaScript to a warmer amber so they don't collide.
+              svg = svg.replace("#3572A5", "#FFD43B")  # Python
+              svg = svg.replace("#f1e05a", "#F0A500")  # JavaScript
+
               path.write_text(svg)
           else:
               raise RuntimeError("No language entries found in generated SVG")
